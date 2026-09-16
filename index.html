@@ -1,172 +1,142 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+.nav-btn {
+        padding: 8px 13px;
+        font-size: 12px;
+      }
 
-  <title>Trade with Sudharshan | Free Trading Education</title>
+      .hero {
+        padding-top: 35px;
+      }
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
+      .logo-box {
+        width: 145px;
+        height: 145px;
+      }
 
-    body {
-      background: #f5f7fb;
-      color: #172033;
-    }
+      .subtitle {
+        font-size: 15px;
+      }
 
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 25px;
-    }
+      .cards {
+        grid-template-columns: 1fr;
+      }
 
-    .card {
-      width: 100%;
-      max-width: 650px;
-      background: white;
-      padding: 45px 25px;
-      text-align: center;
-      border-radius: 20px;
-      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
-    }
-
-    .badge {
-      display: inline-block;
-      background: #e8f5e9;
-      color: #16833a;
-      padding: 8px 15px;
-      border-radius: 30px;
-      font-size: 14px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 38px;
-      margin-bottom: 15px;
-    }
-
-    h1 span {
-      color: #16833a;
-    }
-
-    .subtitle {
-      font-size: 20px;
-      line-height: 1.5;
-      margin-bottom: 25px;
-      color: #555;
-    }
-
-    .features {
-      text-align: left;
-      margin: 25px auto;
-      max-width: 430px;
-    }
-
-    .features p {
-      padding: 10px 0;
-      font-size: 16px;
-    }
-
-    .button {
-      display: inline-block;
-      background: #16833a;
-      color: white;
-      text-decoration: none;
-      padding: 15px 30px;
-      border-radius: 10px;
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 10px;
-    }
-
-    .button:hover {
-      background: #116b30;
-    }
-
-    .disclaimer {
-      margin-top: 30px;
-      font-size: 12px;
-      color: #777;
-      line-height: 1.5;
-    }
-
-    footer {
-      margin-top: 25px;
-      font-size: 13px;
-      color: #999;
+      .telegram-btn {
+        width: 100%;
+        max-width: 330px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <section class="hero">
-    <div class="card">
+  <div class="container">
 
-      <div class="badge">FREE EDUCATIONAL CLASS</div>
-
-      <h1>Trade with <span>Sudharshan</span></h1>
-
-      <p class="subtitle">
-        Learn the basics of trading through simple and educational content.
-      </p>
-
-      <div class="features">
-        <p>📚 Trading Education</p>
-        <p>📊 Learn Market Basics</p>
-        <p>🎯 Educational Trading Concepts</p>
-        <p>📱 Learn from Your Mobile</p>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="brand">
+        Trade<span>With</span> Sudarshan
       </div>
 
-      
-<a
-  class="button"
-  href="https://t.me/+LTjhhRZiGgI2Mjg1"
-  target="_blank"
-  rel="noopener noreferrer"
-  onclick="openTelegram(event)">
-  Join Free Class on Telegram
-</a>
+      <a class="nav-btn"
+         href="https://t.me/+LTjhhRZiGgI2Mjg1"
+         target="_blank">
+        Join Telegram
+      </a>
+    </nav>
 
-<script>
-function openTelegram(event) {
-  event.preventDefault();
 
-  const appLink = "tg://join?invite=LTjhhRZiGgI2Mjg1";
-  const webLink = "https://t.me/+LTjhhRZiGgI2Mjg1";
+    <!-- HERO -->
+    <section class="hero">
 
-  // Try Telegram app first
-  window.location.href = appLink;
+      <div class="logo-box">
+        <!-- Apni DP ko logo.jpg naam se upload karein -->
+        <img src="logo.jpg" alt="Trade With Sudarshan">
+      </div>
 
-  // If Telegram app doesn't open, use browser
-  setTimeout(function () {
-    window.location.href = webLink;
-  }, 1500);
-}
-</script>
-      
-      <p class="disclaimer">
-        Disclaimer: This platform provides educational content only.
-        Trading and investing involve market risk. No profit or return
-        is guaranteed. Please do your own research before making any
-        financial decision.
+      <h1>
+        TRADE WITH <span>SUDARSHAN</span>
+      </h1>
+
+      <p class="subtitle">
+        Trading education, market insights and learning resources
+        designed to help you understand the financial markets better.
       </p>
 
-      <footer>
-        © 2026 Trade with Sudharshan
-      </footer>
+      <a class="telegram-btn"
+         href="https://t.me/+LTjhhRZiGgI2Mjg1"
+         target="_blank">
+
+        <span class="telegram-icon">✈</span>
+        Join Our Telegram Channel
+      </a>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <h2 class="section-title">
+      What You'll Find
+    </h2>
+
+    <section class="cards">
+
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Market Analysis</h3>
+        <p>
+          Educational market analysis and discussions
+          to understand price movements and market concepts.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3>Trading Education</h3>
+        <p>
+          Learn trading concepts, technical analysis
+          and risk-management basics.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">💡</div>
+        <h3>Market Insights</h3>
+        <p>
+          Follow educational insights and stay connected
+          with the trading community.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <div class="info">
+
+      <h2>Join Trade With Sudarshan</h2>
+
+      <p>
+        Connect with the Telegram channel for trading-related
+        educational content, market discussions and updates.
+      </p>
+
+      <a class="telegram-btn"
+         href="https://t.me/+LTjhhRZiGgI2Mjg1"
+         target="_blank">
+        ✈ Join Telegram
+      </a>
 
     </div>
-  </section>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Trade With Sudarshan · Educational Content Only
+  </footer>
 
 </body>
 </html>
