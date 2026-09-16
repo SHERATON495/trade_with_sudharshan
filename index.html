@@ -1,29 +1,120 @@
 
-.nav-btn {
-        padding: 8px 13px;
-        font-size: 12px;
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Trade with Sudharshan | Free Trading Education</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #07111f, #102a43);
+      color: white;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+      background: rgba(255,255,255,0.08);
+      padding: 40px 25px;
+      border-radius: 25px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+      backdrop-filter: blur(10px);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 30px;
+      background: #00c853;
+      color: white;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    h1 span {
+      color: #00e676;
+    }
+
+    .subtitle {
+      color: #d5dbe3;
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .features {
+      text-align: left;
+      margin: 25px 0;
+    }
+
+    .feature {
+      background: rgba(255,255,255,0.07);
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 12px;
+      font-size: 16px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 17px;
+      background: #00c853;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 25px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #00a844;
+      transform: translateY(-2px);
+    }
+
+    .disclaimer {
+      font-size: 12px;
+      color: #aeb7c4;
+      line-height: 1.5;
+      margin-top: 25px;
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #8793a3;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 32px;
       }
 
-      .hero {
-        padding-top: 35px;
-      }
-
-      .logo-box {
-        width: 145px;
-        height: 145px;
-      }
-
-      .subtitle {
-        font-size: 15px;
-      }
-
-      .cards {
-        grid-template-columns: 1fr;
-      }
-
-      .telegram-btn {
-        width: 100%;
-        max-width: 330px;
+      .container {
+        padding: 30px 18px;
       }
     }
   </style>
@@ -33,110 +124,75 @@
 
   <div class="container">
 
-    <!-- NAVBAR -->
-    <nav>
-      <div class="brand">
-        Trade<span>With</span> Sudarshan
+    <div class="badge">FREE EDUCATIONAL CLASS</div>
+
+    <h1>
+      Trade with <span>Sudharshan</span>
+    </h1>
+
+    <p class="subtitle">
+      Learn the basics of trading through simple and educational content.
+    </p>
+
+    <div class="features">
+
+      <div class="feature">
+        📚 Trading Education
       </div>
 
-      <a class="nav-btn"
-         href="https://t.me/+LTjhhRZiGgI2Mjg1"
-         target="_blank">
-        Join Telegram
-      </a>
-    </nav>
-
-
-    <!-- HERO -->
-    <section class="hero">
-
-      <div class="logo-box">
-        <!-- Apni DP ko logo.jpg naam se upload karein -->
-        <img src="logo.jpg" alt="Trade With Sudarshan">
+      <div class="feature">
+        📊 Learn Market Basics
       </div>
 
-      <h1>
-        TRADE WITH <span>SUDARSHAN</span>
-      </h1>
-
-      <p class="subtitle">
-        Trading education, market insights and learning resources
-        designed to help you understand the financial markets better.
-      </p>
-
-      <a class="telegram-btn"
-         href="https://t.me/+LTjhhRZiGgI2Mjg1"
-         target="_blank">
-
-        <span class="telegram-icon">✈</span>
-        Join Our Telegram Channel
-      </a>
-
-    </section>
-
-
-    <!-- FEATURES -->
-    <h2 class="section-title">
-      What You'll Find
-    </h2>
-
-    <section class="cards">
-
-      <div class="card">
-        <div class="card-icon">📊</div>
-        <h3>Market Analysis</h3>
-        <p>
-          Educational market analysis and discussions
-          to understand price movements and market concepts.
-        </p>
+      <div class="feature">
+        🎯 Educational Trading Concepts
       </div>
 
-      <div class="card">
-        <div class="card-icon">📚</div>
-        <h3>Trading Education</h3>
-        <p>
-          Learn trading concepts, technical analysis
-          and risk-management basics.
-        </p>
+      <div class="feature">
+        📱 Learn from Your Mobile
       </div>
-
-      <div class="card">
-        <div class="card-icon">💡</div>
-        <h3>Market Insights</h3>
-        <p>
-          Follow educational insights and stay connected
-          with the trading community.
-        </p>
-      </div>
-
-    </section>
-
-
-    <!-- CTA -->
-    <div class="info">
-
-      <h2>Join Trade With Sudarshan</h2>
-
-      <p>
-        Connect with the Telegram channel for trading-related
-        educational content, market discussions and updates.
-      </p>
-
-      <a class="telegram-btn"
-         href="https://t.me/+LTjhhRZiGgI2Mjg1"
-         target="_blank">
-        ✈ Join Telegram
-      </a>
 
     </div>
 
+    <!-- TELEGRAM BUTTON -->
+    <a
+      class="button"
+      href="https://t.me/+LTjhhRZiGgI2Mjg1"
+      target="_blank"
+      rel="noopener noreferrer"
+      onclick="openTelegram(event)">
+      Join Free Class on Telegram
+    </a>
+
+    <p class="disclaimer">
+      Disclaimer: This page is for educational purposes only.
+      Trading and investing involve market risks. No profit or return
+      is guaranteed. Please do your own research before making any
+      financial decision.
+    </p>
+
+    <footer>
+      © 2026 Trade with Sudharshan
+    </footer>
+
   </div>
 
+  <script>
+    function openTelegram(event) {
+      event.preventDefault();
 
-  <!-- FOOTER -->
-  <footer>
-    © 2026 Trade With Sudarshan · Educational Content Only
-  </footer>
+      const appLink = "tg://join?invite=LTjhhRZiGgI2Mjg1";
+      const webLink = "https://t.me/+LTjhhRZiGgI2Mjg1";
+
+      // Try Telegram app first
+      window.location.href = appLink;
+
+      // Browser fallback
+      setTimeout(function () {
+        window.location.href = webLink;
+      }, 1500);
+    }
+  </script>
 
 </body>
 </html>
