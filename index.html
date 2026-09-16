@@ -127,13 +127,33 @@
         <p>📱 Learn from Your Mobile</p>
       </div>
 
-      <a class="button"
-         href="https://https://t.me/+LTjhhRZiGgI2Mjg1
+      
+<a
+  class="button"
+  href="https://t.me/+LTjhhRZiGgI2Mjg1"
+  target="_blank"
+  rel="noopener noreferrer"
+  onclick="openTelegram(event)">
+  Join Free Class on Telegram
+</a>
 
-         target="_blank">
-        Join Free Class on Telegram
-      </a>
+<script>
+function openTelegram(event) {
+  event.preventDefault();
 
+  const appLink = "tg://join?invite=LTjhhRZiGgI2Mjg1";
+  const webLink = "https://t.me/+LTjhhRZiGgI2Mjg1";
+
+  // Try Telegram app first
+  window.location.href = appLink;
+
+  // If Telegram app doesn't open, use browser
+  setTimeout(function () {
+    window.location.href = webLink;
+  }, 1500);
+}
+</script>
+      
       <p class="disclaimer">
         Disclaimer: This platform provides educational content only.
         Trading and investing involve market risk. No profit or return
